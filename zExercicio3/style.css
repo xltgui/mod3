@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    padding: 14px;
+    grid-gap: 15px;
+    border: solid 3px;
+    height: 1150px;
+    width: 900px;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-template: 
+    'menu1 menu1 menu1'
+    'image lorem1 lorem5'
+    'image lorem2 lorem5'
+    'image lorem3 lorem5'
+    'image lorem4 lorem5'
+    'rodape rodape rodape'
+}
+
+div{
+    border: solid 2px;
+}
+
+.image{
+    grid-area: image;
+}
+
+.lorem1{
+    grid-area: lorem1;
+}
+
+.lorem2{
+    grid-area: lorem2;
+}
+
+.lorem3{
+    grid-area: lorem3;
+}
+
+.lorem4{
+    grid-area: lorem4;
+}
+
+.lorem5{
+    grid-area: lorem5;
+}
+
+.menu1{
+    grid-area: menu1;
+}
+
+.rodape{
+    grid-area: rodape;
+    border: solid 2px;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}

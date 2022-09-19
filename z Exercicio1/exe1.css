@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    padding: 10px;
+    grid-gap: 10px;
+    grid-template: 
+        'titulo titulo'
+        'imagem imagem'
+        'lorem vid'
+        'rodape rodape';
+    border: solid 3px red;
+    width: 60%;
+    height: 60%;
+}
+
+
+
+.container > div{
+    border: solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{
+    grid-area: titulo;
+    border: solid 3px orangered;
+}
+
+.imagem{
+    grid-area: imagem;
+    width: 100%;
+}
+
+.lorem{
+    grid-area: lorem;
+}
+
+.vid{
+    grid-area: vid;
+}
+
+.rodape{
+    grid-area: rodape;
+}
+

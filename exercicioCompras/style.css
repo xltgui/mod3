@@ -1,0 +1,41 @@
+body{
+    max-width: 970px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px yellow;
+    letter-spacing: 1px;
+
+}
+
+input{
+    border: solid 3px;
+    color: black
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    color: red;
+    border-radius:  30px;
+}
+
+#btninserir{
+    border-radius: 30px;
+    color: blue
+}
+
+#btnteste{
+    color:crimson
+}
+
+    

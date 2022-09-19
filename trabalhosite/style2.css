@@ -1,0 +1,54 @@
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px rgb(102, 136, 136);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.home{
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+.section{
+    align-items: flex-start;
+    width: 200%;
+}
+
+.cont{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(5, 114, 20);
+}
+
+.contabilidade{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.limp{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(5, 114, 20);
+}
+
+.comp{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(5, 114, 20);
+}
+
+.tecn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(5, 114, 20);
+}
+
+.ar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(5, 114, 20);
+}
+
+
+

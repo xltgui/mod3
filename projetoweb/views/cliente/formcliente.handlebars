@@ -1,0 +1,47 @@
+<h3>Cliente</h3>
+<hr>
+<form action="/clientes/save" method="POST">
+    <div class="form-group">
+    <label for="txtnome">Nome:</label>
+    
+    <input type="hidden" name="id"
+    value="{{cliente.id}}">
+
+
+    <input 
+    name="nome"
+    type="text" 
+    class="form-control" required
+    id="txtnome" value="{{cliente.nome}}">
+    </div>
+    
+    
+    <div class="form-group">
+    <label for="txtend">Endereço:</label>
+    <input 
+    name="end"
+    type="text" 
+    class="form-control"
+    id="txtend" value="{{cliente.endereco}}">
+    </div>
+
+    <div class="form-group">
+    <label for="txtsexo">Sexo:</label>
+    <input 
+    name="sexo"
+    type="text" 
+    class="form-control"
+    id="txtsexo" value="{{cliente.sexo}}">
+    </div>
+
+    <div class="form-group">
+    <label for="txtfone">Telefone:</label>
+    <input 
+    name="fone"
+    type="text" 
+    class="form-control"
+    id="txtfone" value="{{cliente.telefone}}">
+    </div>
+         
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
